@@ -46,4 +46,6 @@ def followExternalOnly(startingPage):
     followExternalOnly(externalLink)
 
 followExternalOnly("http://oreilly.com")
-#上面这个程序从http://oreilly.com开始，然后随机的从外链跳到另一个外链，网站首页上并不能一直保证发现外链，这时为了能够发现外链，就需要一种类似前面的案例中使用的采集方法，即递归的深入一个网站直到找到一个外链为止。
+#上面这个程序从http://oreilly.com开始，然后随机的从外链跳到另一个外链，
+#网站首页上并不能一直保证发现外链，这时为了能够发现外链，就需要一种类似前面的案例中使用的采集方法，
+#即递归的深入一个网站直到找到一个外链为止。
